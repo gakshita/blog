@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      header{
+        text-align: center;
+
+      }
+      body{
+        background-color:#D3D3D3;
+      }
+      footer{
+        background-color:#696969;
+        min-height: 150px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top:-10px;
+
+      }
+      .box{
+        float:left;
+        background-color: black;
+        width:7%;
+        height: 40px;
+        margin: 30px -10px 40px 40px;
+        text-align:center;
+      }
+      .box:hover{
+        background-color: gray;
+      }
+      .container-1{
+
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .polaroid{
+
+        padding: 10px 20px;
+      }
+      div{
+        margin: 6px 6px 6px 6px;
+      }
+      .read{
+        width:10%;
+        border:ridge;
+        margin-left:0px;
+        padding-left: 5px;
+
+      }
+      .main{
+        display:flex;
+        flex-flow: row wrap;
+      }
+      .left{
+        display:flex;
+        flex-flow:column wrap;
+        width:65%;
+      }
+      .right{
+        display:flex;
+        flex-flow:column wrap;
+        width:30%;
+      }
+      .section{
+        float:left;
+        width:60px;
+        margin-right:9px;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>MY BLOG</h1>
+      <h5>Welcome to the blog of unkown</h5>
+    </header>
+    <div class="main">
+      <div class="left">
+        <div class="container-1">
+          <img src="woods.jpg" style='width:850px;' alt="">
+          <div class="polaroid">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, April 7, 2014</h5>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <div class="read">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-1">
+          <img src="bridge.jpg" style='width:850px;' alt="">
+          <div class="polaroid">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, April 7, 2014</h5>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <div class="read">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="container-1">
+          <img src="avatar_g.jpg" alt="">
+          <div class="polaroid">
+            <h2>My Name</h2>
+            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+
+          </div>
+        </div>
+        <div class="container-1" style='max-height:450px;'>
+          <div class="head">
+            <h5>Popular Post</h5>
+          </div>
+          <hr>
+          <div >
+            <img src="gondol.jpg" class="section" alt="">
+            <div>
+              <h5>Lorem</h5>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+          <hr>
+          <div >
+            <img src="rock.jpg" class="section" alt="">
+            <div>
+              <h5>Lorem</h5>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+          <hr>
+          <div >
+            <img src="skies.jpg" class="section" alt="">
+            <div>
+              <h5>Lorem</h5>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+          <hr>
+          <div >
+            <img src="workshop.jpg" class="section" alt="">
+            <div >
+              <h5>Lorem</h5>
+              <p>Sed mattis nunc</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="container-1" style='min-height:210px;'>
+          <div class="head">
+            <h5>Tags</h5>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="foot">
+        <div class="box">
+          <a href="#">previous</a>
+        </div>
+        <div class="box">
+          <a href="#">next</a>
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+</html>
